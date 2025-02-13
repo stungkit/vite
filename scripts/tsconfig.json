@@ -1,13 +1,13 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
+  "include": ["."],
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "ES2022",
+    "target": "ES2020",
     "moduleResolution": "node",
-    "target": "es2019",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "types": ["node", "jest"]
+    "noUnusedLocals": true
   }
 }
